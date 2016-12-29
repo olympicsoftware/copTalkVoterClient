@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/olympicsoftware/copTalkVoterClient/issues"
   },
-  "homepage": "https://github.com/olympicsoftware/copTalkVoterClient#readme"
+  "homepage": "https://github.com/olympicsoftware/copTalkVoterClient#readme",
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
 }
