@@ -1,7 +1,9 @@
 import angular from 'angular';
 
-import {componentDefintion} from './voting-list.component'
+import {votingListInit} from './voting-list';
+import {newTopicInit} from './new-topic';
 
 const app = angular.module('copVotingApp', []);
 
-app.component('votingList', componentDefintion);
+votingListInit(app);
+newTopicInit(app);
