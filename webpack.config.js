@@ -19,6 +19,10 @@ module.exports = {
                 query: {
                     presets: ["latest"]
                 }
+            },
+            {
+                test: /\.html?$/,
+                loader: 'html-loader'
             }
         ]
     },
